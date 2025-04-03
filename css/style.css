@@ -1,0 +1,86 @@
+
+h1 {
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+/* This styles the navigation bar */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+
+h2 {
+    color:rgb(14, 25, 107);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large ;
+
+}
+
+h1.title {
+    color:rgb(231, 161, 255) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px ;
+}
+
+h2. title {
+    color:rgb(104, 162, 213);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    background-color: powderblue;
+    background-image:-moz-radial-gradient();
+    color:rgb(6, 85, 121)
+}
+
+
+p {
+    color: #333;
+    line-height: 1.5;
+}
+
+#header {
+    background-color: #0077cc;
+    color: rgb(245, 180, 255);
+}
+
+.highlight {
+    font-weight: bold;
+    color: rgb(255, 132, 228);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+li {
+    background-color: hsl(299, 86%, 81%);
+    
+}
+
+nav {
+    margin: 20px;
+    padding: 2px;
+    background-color: rgb(249, 191, 255);
+    width: 400px; 
+}
