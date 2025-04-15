@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graphic Design Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link id="css" rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js"> </script>
+   
 </head>
 <body>
     <header id="header">
-        <h1 class="title">Welcome to My Graphic Design Portfolio</h1>
+        <h1 id="typewriter" class="title"></h1>
+        <button onclick="showMessage()"> click me </button>
+        <button onclick="checkAge ()"> Enter the page </button>
+        <button onclick="showMany ()"> Try to close?</button>
+        <button onclick="changeColor()"> Change color</button>
+        <button onclick="showFunFact()">Click for a Design Fun Fact</button>
+        <button onclick="randomBackground()"> Random Background </button>
+        
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -24,7 +33,7 @@
                 <p>I am a passionate graphic designer specializing in branding, typography, and UI/UX design. My goal is to create visually compelling and functional designs that leave a lasting impact.</p>
             </article>
         </section>
-        
+       
         <section class="content">
             <h2 class="highlight">Portfolio</h2>
             <p>Here are some of my design projects:</p>
@@ -35,6 +44,9 @@
                 <li>Social Media Graphics for DEF Brand</li>
             </ul>
         </section>
+        <img id="Project" src="https://graphicgoogle.com/wp-content/uploads/2017/11/Dividido-Creative-Poster-Design-For-Inspiration.jpg" >
+        <button onclick="changeProject1()"> project 1 </button>
+        <button onclick="changeProject2()"> project 2 </button>
         
         <section class="content">
             <h2 class="highlight">Skills</h2>

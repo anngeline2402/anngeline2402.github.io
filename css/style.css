@@ -84,3 +84,11 @@ nav {
     background-color: rgb(249, 191, 255);
     width: 400px; 
 }
+
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color: pink;
+    border-radius: 5px;
+    font-size:larger;
+}
